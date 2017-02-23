@@ -5,18 +5,19 @@ Crawl a doctors list for medical practitioners in Switzerland. The scripts reads
 ## Getting Started
 
 1. Install Scrapy (https://scrapy.org/) by 
-...
+'''
 pip install scrapy
-...
+'''
 
 2. Clone repository
-...
+'''
 git clone https://github.com/chaene82/aerztestamm
-...
+'''
 
 3. Execute scripts
-...
+'''
 scrapy crawl doctorsList -o output.csv
+'''
 
 ## Versioning
 
