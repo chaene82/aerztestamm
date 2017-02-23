@@ -6,13 +6,8 @@ class DoctorslistSpider(scrapy.Spider):
     name = "doctorslist"
     allowed_domains = ["doktor.ch"]
     start_urls = (
-        'http://www.doktor.ch/allgemeinaerzte/allgemeinaerzte_k_ag.html',
-        'http://www.doktor.ch/allgemeinaerzte/allgemeinaerzte_k_zh.html',
-        'http://www.doktor.ch/allgemeinaerzte/allgemeinaerzte_k_tg.html',
-        'http://www.doktor.ch/allgemeinaerzte/allgemeinaerzte_k_sg.html',
-        'http://www.doktor.ch/allgemeinaerzte/allgemeinaerzte_k_gl.html',
-        'http://www.doktor.ch/allgemeinaerzte/allgemeinaerzte_k_gr.html',
-        'http://www.doktor.ch/allgemeinaerzte/allgemeinaerzte_k_zg.html',
+        'http://www.doktor.ch/aerzte/aerzte_k_zg.html',
+        'http://www.doktor.ch/aerzte/aerzte_k_sz.html',
     )
 
 
