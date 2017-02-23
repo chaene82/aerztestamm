@@ -5,9 +5,9 @@ Crawl a doctors list for medical practitioners in Switzerland. The scripts reads
 ## Getting Started
 
 1. Install Scrapy (https://scrapy.org/) by 
-'''
+```
 pip install scrapy
-'''
+```
 
 2. Clone repository
 '''
